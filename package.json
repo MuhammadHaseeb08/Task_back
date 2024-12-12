@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "sdf",
+  "main": "app.js",
+  "scripts": {
+    "test": "sdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sdf"
+  },
+  "keywords": [
+    "sdf"
+  ],
+  "author": "haseeb",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.8.4"
+  }
+}
