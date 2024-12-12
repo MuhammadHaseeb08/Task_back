@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors())
 app.use(express.json());
-const connection=require("../server/dbconn");
+const connection=require("./dbconn");
 
 const port = 4000
 app.use("/api",authRouter);
